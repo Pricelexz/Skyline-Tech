@@ -1,0 +1,113 @@
+    
+    
+    /* Designs for my Container starts here */
+
+    .Container{
+        background-color:rgb(245, 237, 237);
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        font-size: 18px;
+        
+         }
+        
+         /* My Table designs righ here */
+    
+        table{
+            border: 2px solid;
+            margin: auto;
+            width: 100%;
+            border-collapse: collapse;
+            text-transform: capitalize;
+            
+        }
+        
+        /* Here is Caption design */
+    
+        caption{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+            padding: 10px 5px;
+            color: red;
+        }
+        
+        tr td:nth-child(2){
+            font-size: 20px;
+            color: rgb(44, 25, 25);
+            /* margin-left: 5px; */
+        }
+    
+        thead th{
+            font-size: 25px;
+            padding: 20px;
+            width: 50%;
+            background-color: rgb(169, 207, 245);
+        }
+        
+        table tr{
+        border: 1px solid;
+        }
+        
+        
+        
+        tr:hover{
+            background-color: rgb(224, 202, 202);
+        }
+        
+        tr input[type="button"]{
+            border: 2px solid;
+            border-radius: 3px;
+            padding: 5px 30px;
+            font-size: 15px;
+            width: 90%;
+        }
+         
+        tr:nth-child(even){
+            background-color:rgb(241, 130, 130);
+        } 
+         
+    
+        /* Button designs starts here */
+    
+        .excellent input[type="button"]{
+            
+            background-color: rgb(99, 238, 99);
+                
+        }
+    
+        .good input[type="button"]{
+    
+            background-color:rgb(199, 157, 240);
+                
+        }
+    
+        .fair input[type="button"]{
+            background-color:rgb(247, 247, 120);
+                
+        }
+    
+        .poor input[type="button"]{
+            background-color:red;
+                
+        }
+    
+    /*     
+        Here are my icon design */
+       td i{
+        
+            font-size: 25px;
+            /* padding-left: 1px 2px; */
+            color: rgb(231, 2, 2);
+            margin-left: 8px;
+          
+        
+        }
+    
+        .port{
+            border: 0px 2px;
+            padding: 1px;
+            background-color: rgb(87, 211, 87);
+            border-radius: 5px;
+        }
+    
+    
